@@ -1,0 +1,28 @@
+header { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section { 
+
+    text-align: center;
+}
+.hero-text { 
+    background-color: beige;
+    padding: 2rem;
+}
+
+.image {
+    background-image: url(../assets/office.webp);
+    background-size: cover;
+    max-width: 100%;
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+margin-right:5px;
+    list-style: none;
+}
